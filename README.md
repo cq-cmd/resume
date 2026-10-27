@@ -4,9 +4,21 @@
 
 单页静态站点，无构建依赖，直接由 GitHub Pages 托管。
 
+**线上地址：https://cq-cmd.github.io/resume/**
+
 - `index.html` — 在线简历（响应式，支持深色模式与 A4 打印）
 - `陈奇-产品经理-简历.pdf` — 两页 PDF 版
 - `陈奇-产品经理-简历.docx` — 可编辑 Word 版
+
+## 发布
+
+Pages 从 `gh-pages` 分支发布，改动后跑一条命令即可：
+
+```bash
+./deploy.sh "改了什么"
+```
+
+脚本会重新生成 PDF、提交、并把 `main` 同步到 `gh-pages`。
 
 ## 本地预览
 
