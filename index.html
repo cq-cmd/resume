@@ -373,8 +373,8 @@ footer{
     --bg:#fff;--surface:#fff;--ink:#000;--body:#222;--muted:#444;
     --faint:#666;--line:#ccc;--accent:#0F4C81;--accent-soft:#F2F6FA;
   }
-  @page{margin:7mm 10mm;}
-  body{background:#fff;font-size:9pt;line-height:1.4;}
+  @page{margin:5.5mm 9mm;}
+  body{background:#fff;font-size:8.8pt;line-height:1.34;}
 
   .progress,.nav,.actions,.status,.sidebar .side-sep{display:none !important;}
   /* 动画元素在打印时必须强制显示，否则会输出空白页 */
@@ -388,7 +388,7 @@ footer{
   .skill-k{width:44pt;}
   .actions{display:none !important;}
 
-  .sidebar{margin-bottom:8pt;padding-bottom:6pt;border-bottom:1.5pt solid var(--accent);}
+  .sidebar{margin-bottom:6pt;padding-bottom:5pt;border-bottom:1.5pt solid var(--accent);}
   .name{font-size:18pt;letter-spacing:.1em;}
   .role{font-size:10.4pt;margin-top:4pt;}
   .tagline{font-size:8.6pt;margin-top:2pt;line-height:1.45;}
@@ -401,44 +401,44 @@ footer{
   .metric .num{font-size:16pt;}
   .metric .num small{font-size:10pt;}
   .metric .lbl{font-size:8pt;margin-top:2pt;line-height:1.4;}
-  .metric-source{font-size:7.8pt;margin-bottom:8pt;}
+  .metric-source{font-size:7.6pt;margin-bottom:6pt;}
 
-  h2{font-size:10.6pt;margin-bottom:5pt;padding-bottom:3pt;letter-spacing:.1em;}
+  h2{font-size:10.4pt;margin-bottom:4pt;padding-bottom:2.5pt;letter-spacing:.1em;}
   h2::before{height:11pt;width:2.4pt;margin-right:7pt;}
-  section{margin-bottom:4pt;scroll-margin-top:0;}
+  section{margin-bottom:2.5pt;scroll-margin-top:0;}
 
-  .job{padding-left:13pt;padding-bottom:4pt;page-break-inside:auto;}
+  .job{padding-left:13pt;padding-bottom:2.5pt;page-break-inside:auto;}
   .job::before{left:2pt;top:7pt;}
   .job::after{width:6pt;height:6pt;top:6pt;border-width:1.4pt;}
   .job-head{gap:8pt;}
   .job-company{font-size:10.5pt;}
   .job-role{font-size:9.8pt;margin-left:6pt;}
   .job-date{font-size:8.5pt;}
-  .job-sub{font-size:8.8pt;margin-top:3pt;}
-  .job .points{margin-top:3.5pt;gap:2pt;}
+  .job-sub{font-size:8.8pt;margin-top:2pt;}
+  .job .points{margin-top:2.5pt;gap:1.6pt;}
 
-  .points li{font-size:8.9pt;line-height:1.45;page-break-inside:avoid;padding-left:10pt;}
+  .points li{font-size:8.6pt;line-height:1.38;page-break-inside:avoid;padding-left:10pt;}
   .points li::before{top:7pt;width:3.2pt;height:3.2pt;}
 
-  .card{padding:6.5pt 9pt;margin-bottom:5pt;box-shadow:none;transform:none;}
+  .card{padding:5.5pt 9pt;margin-bottom:4pt;box-shadow:none;transform:none;}
   .card:hover{box-shadow:none;transform:none;}
   .card-head{margin-bottom:2pt;}
   .card-title{font-size:10pt;}
   .card-meta{font-size:9pt;margin-left:6pt;}
-  .card .points{margin-top:3pt;gap:1.8pt;}
+  .card .points{margin-top:2pt;gap:1.5pt;}
 
-  .skills{gap:2pt;}
+  .skills{gap:1.5pt;}
   .skill-k{font-size:9pt;padding-top:1pt;}
   .pill{
-    font-size:8pt;padding:.2pt 4.5pt;line-height:1.4;
+    font-size:7.9pt;padding:.1pt 4pt;line-height:1.3;
     background:transparent;border:.5pt solid #c3ced9;color:#2a3542;
   }
 
-  .edu{padding:2pt 0;}
+  .edu{padding:1pt 0;}
   .edu-school{font-size:10pt;}
   .edu-major{font-size:9pt;}
   .edu-date{font-size:8.5pt;}
-  .honor{font-size:8.4pt;padding:2pt 7pt;margin-top:1pt;}
+  .honor{font-size:8.4pt;padding:1.5pt 7pt;margin-top:1pt;}
   .honor svg{width:10pt;height:10pt;}
 
   footer{display:none;}
@@ -582,6 +582,7 @@ footer{
         <ul class="points">
           <li><b>建体系：</b>统一三条主线——物料（重要度、分类、与材料关联）、图纸（历史档案补充、模板规范、标准件与模型库）、变更（流程优化、表单规范、范围管理），落成可执行的研发标准。</li>
           <li><b>落系统：</b>以 PLM 项目经理身份主导达索 EPDM 上线全周期（组建项目组 → 蓝图设计 → 系统实现 → 测试 → 上线 → 推广培训 → 运维），对进度、范围与上线结果负最终责任。</li>
+          <li><b>管住数据：</b>兼管用友 PLM 与用友 ERP 的 BOM 数据维护，保障两套系统物料与 BOM 口径一致。</li>
           <li><b>固化：</b>图纸、文档、物料、标准化、变更管理收进同一平台，研发过程由人工盯办转为流程留痕，可追溯、可审计。</li>
         </ul>
       </div>
@@ -603,8 +604,8 @@ footer{
           <span class="job-date">2017.07 – 2019.11</span>
         </div>
         <ul class="points">
-          <li>承担物料标准化与 BOM 数据维护，兼管用友 PLM，并参与达索 PDM 系统上线。</li>
-          <li><b>主抓 BOM 变更与准确率：</b>以变更流程规范叠加数据核对机制，保障用友 ERP 中的 BOM 数据可直接使用。</li>
+          <li>承担物料标准化与 BOM 数据维护，基于达索 PLM（ENOVIA）推进研发数据规范化。</li>
+          <li><b>主抓 BOM 变更与准确率：</b>以变更流程规范叠加数据核对机制，保障 PLM 与 ERP 的 BOM 数据一致、可直接使用。</li>
         </ul>
       </div>
     </section>
@@ -647,7 +648,7 @@ footer{
             <span class="pill">达索 ENOVIA</span>
             <span class="pill">达索 EPDM</span>
             <span class="pill">金蝶 PLM</span>
-            <span class="pill">用友 PLM</span>
+            <span class="pill">用友 PLM / ERP</span>
             <span class="pill">小米自研 BOM 系统</span>
             <span class="pill">PLM ↔ ERP 数据打通</span>
           </div>
